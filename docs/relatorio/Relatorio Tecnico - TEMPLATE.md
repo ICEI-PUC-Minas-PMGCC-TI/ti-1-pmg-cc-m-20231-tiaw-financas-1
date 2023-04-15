@@ -1,21 +1,18 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Gastos desnecessários com combustíveis por não conhecer os postos locais
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da Computaçao - PUC Coreu
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Ana Fernanda Souza Cancado
+> - Gabriel Rangel Gontijo
+> - João
+> - Rafael
 
 # Estrutura do Documento
 
@@ -56,7 +53,9 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Com a verticalização e urbanização das cidades, torna-se cada vez mais necessário possuir um veículo. Com isso, o número de carros no país, principalmente na região sudeste, está crescendo cada vez mais. Segundo o G1, em 2020, mais de 50% dos brasileiros possuiam um carro na garagem para uso pessoal. 
+
+Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o ano, os quais afetam o controle financeiro de uma grande parcela da população. Esse aumento de gastos direcionados a essa tarefa imprescindível  
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +75,14 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso a diversos preços de combustíveis por postos. Além de possuir um pequeno portal de notícias acerca desse tema.  
+
+Como objetivos específicos, podemos ressaltar:
+- Fornecer funcionalidades que permitam a visualização dos postos próximos a localização do usuário;
+- Permitir que o usuário realize a atualização dos preços;
+- Possuir uma ferramenta de busca de postos de combustíveis por endereço ou nome;
+
+
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -105,7 +111,10 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Embora diversas pessoas possam se beneficiar de soluções que visem diminuir os gastos direcionados ao abastecimento do veículo, o foco deste trabalho está no público que tem o hábito dirigir um carro pessoal diariamente.
+
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 a 50 anos que se possuem um trajeto cotidiano, abastecem o carro pelo menos 2 vezes ao mês, fazendo com que seja um gasto representativo entre as despesas. E que fazem uso frequente de computadores e dispositivos móveis para se atualizarem com tópicos que vão além dos assuntos relacionados às suas atividades profissionais.
+
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
