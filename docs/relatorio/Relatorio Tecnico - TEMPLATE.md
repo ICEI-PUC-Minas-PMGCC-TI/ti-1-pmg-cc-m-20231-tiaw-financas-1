@@ -116,6 +116,27 @@ As personas levantadas durante o processo de entendimento do problema são apres
 > 
 > ![Exemplo da Proposta de Valor](images/propostadevalor-susana.png)
 > 
+> 
+> **Persona 3 (Márcio)**
+> 
+> ![Exemplo de Persona](images/persona3.png)
+> 
+>
+> **Proposta de valor Márcio**
+> 
+> ![Exemplo da Proposta de Valor](images/propostavalor-marcio.png)
+> 
+> **Persona 4 (Airton)**
+> 
+> ![Exemplo de Persona](images/persona4.png)
+> 
+>
+> **Proposta de valor Airton**
+> 
+> ![Exemplo da Proposta de Valor](images/propostavalor-airton.png)
+
+
+
 
 ## Histórias de Usuários
 
@@ -184,11 +205,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como usabilidade e praticidade. Desta forma, o projeto tem uma identidade visual simples em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
 
 ## User Flow
 
