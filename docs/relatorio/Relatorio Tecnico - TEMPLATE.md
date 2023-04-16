@@ -165,7 +165,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](images/Captura de tela 2023-04-15 213946.png)
+> ![Exemplo de Persona](images/persona1.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
