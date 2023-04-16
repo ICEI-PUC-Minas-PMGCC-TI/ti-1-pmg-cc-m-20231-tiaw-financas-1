@@ -205,6 +205,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como usabilidade e praticidade. Desta forma, o projeto tem uma identidade visual simples em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
+O User Flow foi desenvolvido 
+
 
 ## User Flow
 
