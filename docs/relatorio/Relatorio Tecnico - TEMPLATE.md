@@ -144,8 +144,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|José |Diminuir meus gastos com o meu carro           | Sobrar dinheiro para outras coisas               |
+|Susana       | Encontrar postos mais baratos                | Economizar dinheiro |
+|Márcio      | Ler mais acerca das notícias relacionadas aos combustíveis                | Me manter informado |
+|Airton      | Ter acesso a um mapa que me informe postos ao meu redor               | Descobrir o caminho ideal |
+|Susana       | Descobrir qual combustível é mais vantajoso                | Gastar menos |
+|José | Ter acesso ao meu histórico de gastos com combustíveis | Controlar as despesas mensais               |
+|Márcio      | Gastar menos com combustíveis              | Investir o seu dinheiro |
+|Airton      | Saber o preço de determiado posto com antecedência             | Se programar melhor |
+|José | Ter acesso aos postos que tiveram uma maior redução nos preços | Frequentar mais eles               |
+|Susana | Diminuir minhas despesas | Direcionar minha renda em outras áreas da vida               |
+
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
