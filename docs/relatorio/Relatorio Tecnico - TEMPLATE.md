@@ -262,23 +262,33 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A abordagem inclui as diretrizes de ferramentas usadas pela equipe tanto para a manutenção de códigos e outros recursos quanto para a organização das tarefas do projeto. Lista de Ambientes de Trabalho Os recursos do projeto são criados em várias plataformas e a tabela abaixo mostra a relação entre os ambientes e seus respectivos propósitos.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+### Relação de Ambientes de Trabalho
+
+|AMBIENTE     | PLATAFORMA  |LINK DE ACESSO |
+|-------|-------------------------|----|
+|Design Thinking| Miro | (https://miro.com/app/board/uXjVMYJ6j9Q=/) | 
+|Projeto de Interface e  Wireframes| MarvelApp | (https://marvelapp.com/prototype/ee5hf33) | 
+|Gerenciamento do Projeto| Trello | (https://trello.com/b/LupglzUz/tiaw-template) | 
+
+
+### Gestão de código fonte
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Feature Branch Workflow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches 
+separados. Uma explicação rápida sobre este processo é apresentada no site "5 Git Workflows & Branching Strategy to deliver better code".
+
+
+Figura X - Fluxo de controle do código fonte no repositório git
+
+### Gerenciamento do Projeto
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+To Do: Esta lista representa o Sprint atual que estamos trabalhando.
+Doing: As tarefas vem pra cá quando elas são iniciadas.
+Test: As tarefas ja feitas são movidas para serem testadas.
+Done: As tarefas são movidas para cá quando ja passaram pelas etapas anteriores.
+Locked: As tarefas são movidas para cá quando, por algum motivos, não são concluidas.
+
 
 ## Divisão de Papéis
 
