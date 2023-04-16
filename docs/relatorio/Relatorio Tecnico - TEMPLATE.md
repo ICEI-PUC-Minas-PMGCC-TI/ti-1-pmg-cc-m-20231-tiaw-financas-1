@@ -209,6 +209,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir a busca de postos por endereço   | MÉDIA |
 |RF-003| Permitir que o usuário navegue pelo mapa  | ALTA | 
 |RF-004| Emitir um aviso informando qual combustível está mais vantajoso   | MÉDIA |
+|RF-005| Ter acesso à localização atualizada do usuário   | ALTA |
+|RF-006| O site deve apresentar algumas notícias acerca do tema, obtidas por meio de canais de notícias da Internet | MÉDIA |
+|RF-007| O site deve apresentar os "postos em destaque", aqueles que tiveram uma maior reduçao de preço | MÉDIA |
+|RF-008| O site deve permitir que o usuário procure os postos por cidade | MÉDIA |
+
+
 
 
 ### Requisitos não Funcionais
@@ -217,8 +223,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O sistema devesegurança incluem a proteção contra ataques cibernéticos, a privacidade dos dados do usuário | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O sistema deve garantir a privacidade dos dados do usuário | MÉDIA | 
+|RNF-004| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | MÉDIA | 
+
+
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
