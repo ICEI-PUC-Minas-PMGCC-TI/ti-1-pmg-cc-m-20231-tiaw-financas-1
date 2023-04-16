@@ -139,7 +139,7 @@ Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mu
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A definição exata do problema a ser solucionado e as partes mais importantes a serem tratadas neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -167,7 +167,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
 > 
-> **Exemplo de Persona**
+> **Persona 1**
 > 
 > ![Exemplo de Persona](images/persona1.png)
 > 
