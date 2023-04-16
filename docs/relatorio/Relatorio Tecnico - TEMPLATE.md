@@ -75,7 +75,7 @@ Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o
 
 ## Objetivos
 
-O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso a diversos preços de combustíveis por postos. Além de possuir um pequeno portal de notícias acerca desse tema.  
+O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso a diversos preços de combustíveis por postos e informe qual combustível está mais vantajoso para cada preço (entre álcool e gasolina). Além de possuir um pequeno portal de notícias acerca desse tema.  
 
 Como objetivos específicos, podemos ressaltar:
 - Fornecer funcionalidades que permitam a visualização dos postos próximos a localização do usuário;
@@ -95,7 +95,9 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nas entrevistas realizadas, foi constatado que todas as pessoas que possuem veículos de uso próprio já abasteceram em um posto e pouco tempo depois passaram em frente a outro estabeleecimento que ofertava o combustível por um preço menor.
+
+Adicionalmente, há uma falta de conhecimento da população acerca de estabelecer qual o combustível mais vantajoso (entre gasolina e álcool).
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
