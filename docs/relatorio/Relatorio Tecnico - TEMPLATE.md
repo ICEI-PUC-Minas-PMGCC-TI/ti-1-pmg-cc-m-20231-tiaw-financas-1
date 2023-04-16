@@ -167,15 +167,26 @@ As personas levantadas durante o processo de entendimento do problema são apres
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
 > 
-> **Persona 1**
+> **Persona 1 (José)**
 > 
 > ![Exemplo de Persona](images/persona1.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
-
+> **Proposta de valor José**
+> 
+> ![Exemplo da Proposta de Valor](images/propostavalor-josé.png)
+> 
+> 
+> **Persona 2 (Susana)**
+> 
+> ![Exemplo de Persona](images/persona2.png)
+> 
+>
+> **Proposta de valor Susana**
+> 
+> ![Exemplo da Proposta de Valor](images/propostadevalor-susana.png)
+> 
 
 ## Histórias de Usuários
 
