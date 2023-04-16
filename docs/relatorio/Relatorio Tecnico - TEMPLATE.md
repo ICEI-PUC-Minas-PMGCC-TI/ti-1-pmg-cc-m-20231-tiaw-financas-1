@@ -55,7 +55,10 @@ Ciência da Computaçao - PUC Coreu
 
 Com a verticalização e urbanização das cidades, torna-se cada vez mais necessário possuir um veículo. Com isso, o número de carros no país, principalmente na região sudeste, está crescendo cada vez mais. Segundo o G1, em 2020, mais de 50% dos brasileiros possuiam um carro na garagem para uso pessoal. 
 
-Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o ano, os quais afetam o controle financeiro de uma grande parcela da população. Esse aumento de gastos direcionados a essa tarefa imprescindível  
+Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o ano. Esse aumento de gastos direcionados a essa tarefa imprescindível pode causar problemas financeiros em uma grande parcela da população.
+
+Diante disso, torna-se fundamental que existam canais que ajudem o usuário a econominar durante o abastecimento de seu veículo, permitindo acesso aos preços atualizados de cada posto de combustível. 
+
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -75,12 +78,13 @@ Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o
 
 ## Objetivos
 
-O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso a diversos preços de combustíveis por postos e informe qual combustível está mais vantajoso para cada preço (entre álcool e gasolina). Além de possuir um pequeno portal de notícias acerca desse tema.  
+O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso aos preços dos combustíveis por postos e informe qual está mais vantajoso para cada situação (entre álcool e gasolina). Além de possuir um pequeno portal de notícias acerca desse tema.  
 
 Como objetivos específicos, podemos ressaltar:
 - Fornecer funcionalidades que permitam a visualização dos postos próximos a localização do usuário;
 - Permitir que o usuário realize a atualização dos preços;
 - Possuir uma ferramenta de busca de postos de combustíveis por endereço ou nome;
+- Permitir a visualização dos postos que diveram a maior redução do preço durante certo período;
 
 
 
@@ -95,7 +99,7 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-Nas entrevistas realizadas, foi constatado que todas as pessoas que possuem veículos de uso próprio já abasteceram em um posto e pouco tempo depois passaram em frente a outro estabeleecimento que ofertava o combustível por um preço menor.
+Nas entrevistas realizadas, foi constatado que as pessoas que possuem veículos de uso próprio direcionam boa parte de sua renda mensal para o abastecimento de seus veículos. Além disso, já todas elas já abasteceram em um posto e pouco tempo depois passaram em frente a outro estabeleecimento que ofertava o mesmo combustível por um preço menor.
 
 Adicionalmente, há uma falta de conhecimento da população acerca de estabelecer qual o combustível mais vantajoso (entre gasolina e álcool).
 
@@ -213,6 +217,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O sistema devesegurança incluem a proteção contra ataques cibernéticos, a privacidade dos dados do usuário | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
