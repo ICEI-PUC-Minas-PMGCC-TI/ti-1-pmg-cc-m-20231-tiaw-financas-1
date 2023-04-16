@@ -201,8 +201,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário atualize o preço dos postos | ALTA | 
+|RF-002| Permitir a busca de postos por endereço   | MÉDIA |
+|RF-003| Permitir que o usuário navegue pelo mapa  | ALTA | 
+|RF-004| Emitir um aviso informando qual combustível está mais vantajoso   | MÉDIA |
 
 
 ### Requisitos não Funcionais
