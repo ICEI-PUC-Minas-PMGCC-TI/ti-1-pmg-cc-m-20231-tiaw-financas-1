@@ -243,7 +243,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como usabilidade e praticidade. Desta forma, o projeto tem uma identidade visual simples em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -271,22 +272,47 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem.
 > 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+> **Tela - Home-Page**:
 > 
-> **Exemplo**:
+> A tela de home-page mostra um mapa com a localização no usuário, algumas notícias relevantes para o tema e depoimentos de usuários. Além de contar com postos em destaques na leteral direita. 
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](images/homepage.png)
+> 
+> **Tela - mapa-geral**:
+> 
+> A tela de mapa-geral mostra um mapa com todos os postos ao redor do usuário e seus respostivos preços de gasolina e álcool. Além de indicar qual dos dois combustível é mais vantajoso para o usuário. 
+>
+>
+> ![Exemplo de Wireframe](images/mapa-geral.png)
+>
+> **Tela - postos-destaque**:
+> 
+> A tela de postos em destaque mostra a relação dos postos que tiveram uma maior redução nos preços dos combustíveis em determinado período de tempo. 
+> 
+> ![Exemplo de Wireframe](images/destaque.png)
+> 
+> **Tela - cidades**:
+> 
+> A tela de cidades permite a visualização dos postos por essa delimitação territorial. Como a região escolhida do projeto foi a Via Expressa, é permitido navegar entre os postos de Belo Horizonte, Contagem e Betim. 
+> 
+> ![Exemplo de Wireframe](images/cidades.png)
+>
+>
+> ![Exemplo de Wireframe](images/cidades-bh.png)
+> 
+> **Tela - gasolina/álcool**:
+> 
+> A tela de gasolina permite a visualização da relação dos postos ordenados de maneira crescente acerda do preço desse combustível.
+> 
+> ![Exemplo de Wireframe](images/gasolina.png)
+> 
+> **Tela - notícias**:
+> 
+> A tela de notícias permite a visualização das principais noticias que afetam a alteração dos preço dos combustíveis.
+> 
+> ![Exemplo de Wireframe](images/noticias.png)
 
 
 # Metodologia
