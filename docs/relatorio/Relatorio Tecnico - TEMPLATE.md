@@ -143,7 +143,7 @@ Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mu
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
