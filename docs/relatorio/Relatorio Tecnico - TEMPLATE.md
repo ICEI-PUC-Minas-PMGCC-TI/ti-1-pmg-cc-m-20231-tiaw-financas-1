@@ -83,7 +83,7 @@ Adicionalmente, há uma falta de conhecimento da população acerca de estabelec
 
 Embora diversas pessoas possam se beneficiar de soluções que visem diminuir os gastos direcionados ao abastecimento do veículo, o foco deste trabalho está no público que tem o hábito dirigir um carro pessoal diariamente.
 
-Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 a 50 anos que se possuem um trajeto cotidiano, abastecem o carro pelo menos 2 vezes ao mês, fazendo com que seja um gasto representativo entre as despesas. E que fazem uso frequente de computadores e dispositivos móveis para se atualizarem com tópicos que vão além dos assuntos relacionados às suas atividades profissionais.
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 a 50 anos que se possuam um trajeto cotidiano e abastecem o carro pelo menos 2 vezes ao mês, fazendo com que seja um gasto representativo entre as suas despesas. Fazem uso frequente de computadores e dispositivos móveis para se atualizarem com tópicos que vão além dos assuntos relacionados às suas atividades profissionais.
 
 
  
@@ -271,7 +271,7 @@ A abordagem inclui as diretrizes de ferramentas usadas pela equipe tanto para a 
 |Design Thinking| Miro | (https://miro.com/app/board/uXjVMYJ6j9Q=/) | 
 |Projeto de Interface e  Wireframes| MarvelApp | (https://marvelapp.com/prototype/ee5hf33) | 
 |Gerenciamento do Projeto| Trello | (https://trello.com/b/LupglzUz/tiaw-template) | 
-|Repositório de código|	GitHub	|https://github.com/XXXXXXX |
+|Repositório de código|	GitHub	|(https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1) |
 
 
 ### Gestão de código fonte
