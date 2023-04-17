@@ -6,8 +6,8 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 * Ana Fernanda Souza Cancado
 * Gabriel Rangel Gontijo
-* João 
-* Rafael  
+* João Marcos Nascimento de Freitas 
+* Rafael Lima Yasumoto Correa
 
 ## Professores responsáveis
 
