@@ -264,76 +264,44 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 A abordagem inclui as diretrizes de ferramentas usadas pela equipe tanto para a manutenção de códigos e outros recursos quanto para a organização das tarefas do projeto. Lista de Ambientes de Trabalho Os recursos do projeto são criados em várias plataformas e a tabela abaixo mostra a relação entre os ambientes e seus respectivos propósitos.
 
-### Relação de Ambientes de Trabalho
+### Ferramentas (Relação de Ambientes de Trabalho)
 
 |AMBIENTE     | PLATAFORMA  |LINK DE ACESSO |
 |-------|-------------------------|----|
 |Design Thinking| Miro | (https://miro.com/app/board/uXjVMYJ6j9Q=/) | 
 |Projeto de Interface e  Wireframes| MarvelApp | (https://marvelapp.com/prototype/ee5hf33) | 
 |Gerenciamento do Projeto| Trello | (https://trello.com/b/LupglzUz/tiaw-template) | 
+|Repositório de código|	GitHub	|https://github.com/XXXXXXX |
 
 
 ### Gestão de código fonte
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Feature Branch Workflow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches 
 separados. Uma explicação rápida sobre este processo é apresentada no site "5 Git Workflows & Branching Strategy to deliver better code".
-
-
+>
+>![Exemplo codigo fonte](images/figurax.png)
+>
 Figura X - Fluxo de controle do código fonte no repositório git
 
 ### Gerenciamento do Projeto
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-To Do: Esta lista representa o Sprint atual que estamos trabalhando.
-Doing: As tarefas vem pra cá quando elas são iniciadas.
-Test: As tarefas ja feitas são movidas para serem testadas.
-Done: As tarefas são movidas para cá quando ja passaram pelas etapas anteriores.
-Locked: As tarefas são movidas para cá quando, por algum motivos, não são concluidas.
+> - To Do: Esta lista representa o Sprint atual que estamos trabalhando.
+> - Doing: As tarefas vem pra cá quando elas são iniciadas.
+> - Test: As tarefas ja feitas são movidas para serem testadas.
+> - Done: As tarefas são movidas para cá quando ja passaram pelas etapas anteriores.
+> - Locked: As tarefas são movidas para cá quando, por algum motivos, não são concluidas.
 
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+|PAPEL    | PARTICIPANTE |
+|-------|-------------------------|
+|Design Thinking| Ana Fernanda, Gabriel Rangel, João Marcos e Rafael Lima | 
+|Projeto de Interface e  Wireframes| Ana Fernanda |
+|Fluxo do Usuário| Gabriel Rangel |
+|Relatório| Ana Fernanda, João Marcos, Rafael Lima e Gabriel Rangel	|
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
-
-## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
