@@ -1,428 +1,140 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10846097&assignment_repo_type=AssignmentRepo)
+Informações do Projeto
+ TÍTULO DO PROJETO:   Bomba Certa
+ CURSO:  Ciência da Computaçao - PUC Coreu
 
-Gastos desnecessários com combustíveis por não conhecer os postos locais
+Participantes Os membros do grupo são:
+ • Ana Fernanda Souza Cancado 
+• Gabriel Rangel Gontijo 
+• João Marcos Nascimento de Freitas
+ • Rafael Lima Yasumoto Correa
 
-`CURSO` 
+1.Introdução
+Este documento apresenta a documentação completa do projeto – Bomba Certa. O objetivo é oferecer uma solução prática e de fácil utilização que permita aos usuários acessar os preços atualizados dos combustíveis em diferentes postos, comparar os valores e identificar a opção mais vantajosa para abastecer seus veículos. Além disso, o software também contará com um pequeno portal de notícias relacionadas ao tema.
 
-Ciência da Computaçao - PUC Coreu
+2.Contexto
+2.1 Problema
+Com o crescimento das cidades e a verticalização urbana, torna-se cada vez mais necessário possuir um veículo. Isso tem levado ao aumento significativo do número de carros nas estradas, especialmente na região sudeste do país. Segundo o G1, em 2020, mais de 50% dos brasileiros possuíam um carro para uso pessoal.
+Paralelamente, tem sido observado um constante reajuste nos preços da gasolina ao longo do ano. Esses aumentos nos gastos com combustível podem causar problemas financeiros em uma grande parcela da população.
 
-## Participantes
-> Os membros do grupo são: 
-> - Ana Fernanda Souza Cancado
-> - Gabriel Rangel Gontijo
-> - João Marcos Nascimento de Freitas
-> - Rafael Lima Yasumoto Correa
+2.2 Objetivos
 
-# Estrutura do Documento
+2.2.1 Objetivo Geral
+O objetivo geral deste projeto é desenvolver um software que ofereça ferramentas de fácil uso e que permita o acesso aos preços dos combustíveis por posto, informando qual opção (álcool ou gasolina) é mais vantajosa para cada situação específica.
 
-- [Informações do Projeto](#informações-do-projeto)
-  - [Participantes](#participantes)
-- [Estrutura do Documento](#estrutura-do-documento)
-- [Introdução](#introdução)
-  - [Problema](#problema)
-  - [Objetivos](#objetivos)
-  - [Justificativa](#justificativa)
-  - [Público-Alvo](#público-alvo)
-- [Especificações do Projeto](#especificações-do-projeto)
-  - [Personas, Empatia e Proposta de Valor](#personas-empatia-e-proposta-de-valor)
-  - [Histórias de Usuários](#histórias-de-usuários)
-  - [Requisitos](#requisitos)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos não Funcionais](#requisitos-não-funcionais)
-  - [Restrições](#restrições)
-- [Projeto de Interface](#projeto-de-interface)
-  - [User Flow](#user-flow)
-  - [Wireframes](#wireframes)
-- [Metodologia](#metodologia)
-  - [Divisão de Papéis](#divisão-de-papéis)
-  - [Ferramentas](#ferramentas)
-  - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
-- [Projeto da Solução](#projeto-da-solução)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
-- [Referências](#referências)
+2.2.2. Objetivos Específicos
+Fornecer funcionalidades que permitam a visualização dos postos de combustível próximos à localização do usuário.
+Permitir que o usuário atualize os preços dos combustíveis.
+Possuir uma ferramenta de busca de postos de combustíveis por endereço ou nome.
+Permitir a visualização dos postos que apresentaram a maior redução de preço durante um determinado período.
 
+2.3 Justificativa
+Através das entrevistas realizadas, constatou-se que as pessoas que possuem veículos de uso próprio direcionam uma parte significativa de sua renda mensal para o abastecimento de seus carros. Além disso, muitos já passaram pela situação de abastecer em um posto e, pouco tempo depois, deparar-se com outro estabelecimento oferecendo o mesmo combustível por um preço menor.
+Adicionalmente, percebe-se uma falta de conhecimento da população em geral sobre qual combustível (gasolina ou álcool) é mais vantajoso em termos de custo-benefício.
 
-# Introdução
+2.4. Público-Alvo
+Embora diversas pessoas possam se beneficiar de soluções que visem diminuir os gastos com combustível, o foco deste trabalho está no público que utiliza carros pessoais diariamente.
+Desta forma, estabeleceu-se como público-alvo desta solução homens e mulheres entre 25 e 50 anos que possuem um trajeto diário e abastecem o carro pelo menos duas vezes ao mês, tornando o gasto com combustível uma despesa representativa em seus orçamentos. Esses usuários também
+fazem uso frequente de computadores e dispositivos móveis para se atualizarem sobre assuntos diversos.
 
-## Problema
+3. Especificações do Projeto
+3.1 Artefatos de Design Thinking
+Durante o processo de imersão e pesquisa, a equipe utilizou a abordagem de Design Thinking para entender o problema e as necessidades dos usuários. Foram realizadas entrevistas e outras técnicas de coleta de dados para consolidar os requisitos e entender as expectativas dos usuários. Os resultados dessas etapas foram traduzidos em personas e histórias de usuários.
 
-Com a verticalização e urbanização das cidades, torna-se cada vez mais necessário possuir um veículo. Com isso, o número de carros no país, principalmente na região sudeste, está crescendo cada vez mais. Segundo o G1, em 2020, mais de 50% dos brasileiros possuiam um carro na garagem para uso pessoal. 
+3.2. Projeto da Solução
+A solução proposta consiste no desenvolvimento de um software com as seguintes funcionalidades:
+-Visualização dos postos de combustível próximos à localização do usuário, utilizando dados de geolocalização.
+-Atualização dos preços dos combustíveis pelos usuários, garantindo a precisão e atualidade das informações.
+-Ferramenta de busca de postos de combustíveis por endereço ou nome, facilitando a localização dos estabelecimentos desejados.
+-Visualização dos postos que apresentaram a maior redução de preço durante um determinado período, auxiliando os usuários na identificação de promoções e oportunidades de economia.
+O projeto também incluirá o desenvolvimento de uma interface amigável, com wireframes e protótipos que serão utilizados para guiar o processo de implementação.
 
-Em paralelo, tem-se observado diversos reajustes no preço da gasolina durante o ano. Esse aumento de gastos direcionados a essa tarefa imprescindível pode causar problemas financeiros em uma grande parcela da população.
+3.3. Metodologia de Trabalho
+A metodologia adotada envolve diretrizes e ferramentas utilizadas pela equipe para manutenção de códigos e recursos, além da organização das tarefas do projeto. Abaixo está a lista dos ambientes de trabalho utilizados, juntamente com suas respectivas plataformas:
 
-Diante disso, torna-se fundamental que existam canais que ajudem o usuário a econominar durante o abastecimento de seu veículo, permitindo acesso aos preços atualizados de cada posto de combustível. 
+Ferramentas (Lista de Ambientes de Trabalho)
 
+Design Thinking:
+Plataforma: Miro
+Link de Acesso: https://miro.com/app/board/uXjVMYJ6j9Q=/
 
-## Objetivos
+Projeto de Interface e Wireframes:
+Plataforma: MarvelApp
+Link de Acesso: https://marvelapp.com/prototype/ee5hf33
 
-O objetivo geral deste trabalho é desenvolver um software que apresente ferramentas de fácil uso e que permita o acesso aos preços dos combustíveis por postos e informe qual está mais vantajoso para cada situação (entre álcool e gasolina). Além de possuir um pequeno portal de notícias acerca desse tema.  
-
-Como objetivos específicos, podemos ressaltar:
-- Fornecer funcionalidades que permitam a visualização dos postos próximos a localização do usuário;
-- Permitir que o usuário realize a atualização dos preços;
-- Possuir uma ferramenta de busca de postos de combustíveis por endereço ou nome;
-- Permitir a visualização dos postos que diveram a maior redução do preço durante certo período;
+Gerenciamento do Projeto:
+Plataforma: Trello
+Link de Acesso: https://trello.com/b/LupglzUz/tiaw-template
 
 
+ Repositório de código:
+Plataforma: GitHub
+Link de Acesso: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1
 
-## Justificativa
+Requisitos 
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/33b8158c-a982-4524-a2dd-33c4c2e2b1fb)
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/f879e2a2-2cf8-41cf-9705-b0f6c011b2c7)
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/06d2aa4d-c898-4001-8ea6-92b519098e26)
 
-Nas entrevistas realizadas, foi constatado que as pessoas que possuem veículos de uso próprio direcionam boa parte de sua renda mensal para o abastecimento de seus veículos. Além disso, já todas elas já abasteceram em um posto e pouco tempo depois passaram em frente a outro estabeleecimento que ofertava o mesmo combustível por um preço menor.
-
-Adicionalmente, há uma falta de conhecimento da população acerca de estabelecer qual o combustível mais vantajoso (entre gasolina e álcool).
-
-
-## Público-Alvo
-
-Embora diversas pessoas possam se beneficiar de soluções que visem diminuir os gastos direcionados ao abastecimento do veículo, o foco deste trabalho está no público que tem o hábito dirigir um carro pessoal diariamente.
-
-Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 a 50 anos que se possuam um trajeto cotidiano e abastecem o carro pelo menos 2 vezes ao mês, fazendo com que seja um gasto representativo entre as suas despesas. Fazem uso frequente de computadores e dispositivos móveis para se atualizarem com tópicos que vão além dos assuntos relacionados às suas atividades profissionais.
 
 
  
-# Especificações do Projeto
-
-A definição exata do problema a ser solucionado e as partes mais importantes a serem tratadas neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários
-
-
-## Personas, Empatia e Proposta de Valor
-
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
-
-> 
-> **Persona 1 (José)**
-> 
-> ![Exemplo de Persona](images/persona1.png)
-> 
->
-> **Proposta de valor José**
-> 
-> ![Exemplo da Proposta de Valor](images/propostavalor-josé.png)
-> 
-> 
-> **Persona 2 (Susana)**
-> 
-> ![Exemplo de Persona](images/persona2.png)
-> 
->
-> **Proposta de valor Susana**
-> 
-> ![Exemplo da Proposta de Valor](images/propostadevalor-susana.png)
-> 
-> 
-> **Persona 3 (Márcio)**
-> 
-> ![Exemplo de Persona](images/persona3.png)
-> 
->
-> **Proposta de valor Márcio**
-> 
-> ![Exemplo da Proposta de Valor](images/propostavalor-marcio.png)
-> 
-> **Persona 4 (Airton)**
-> 
-> ![Exemplo de Persona](images/persona4.png)
-> 
->
-> **Proposta de valor Airton**
-> 
-> ![Exemplo da Proposta de Valor](images/propostavalor-airton.png)
+ 
+ 
 
+Wireframes
+Tela - mapa-geral: A tela de mapa-geral mostra um mapa com todos os postos ao redor do usuário e seus respectivos preços de gasolina e álcool. Além de indicar qual dos dois combustíveis é mais vantajoso para o usuário.
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/5f5d6122-8d0e-4f89-acf0-1260dfe0e58d)
 
 
+Home-Page: A tela de home-page mostra um mapa com a localização no usuário, algumas notícias relevantes para o tema e depoimentos de usuários. Além de contar com postos em destaques na leteral direita.
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/d220daa6-ee49-4613-94d3-bee558c18354)
 
-## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|José |Diminuir meus gastos com o meu carro           | Sobrar dinheiro para outras coisas               |
-|Susana       | Encontrar postos mais baratos                | Economizar dinheiro |
-|Márcio      | Ler mais acerca das notícias relacionadas aos combustíveis                | Me manter informado |
-|Airton      | Ter acesso a um mapa que me informe postos ao meu redor               | Descobrir o caminho ideal |
-|Susana       | Descobrir qual combustível é mais vantajoso                | Gastar menos |
-|José | Ter acesso ao meu histórico de gastos com combustíveis | Controlar as despesas mensais               |
-|Márcio      | Gastar menos com combustíveis              | Investir o seu dinheiro |
-|Airton      | Saber o preço de determiado posto com antecedência             | Se programar melhor |
-|José | Ter acesso aos postos que tiveram uma maior redução nos preços | Frequentar mais eles               |
-|Susana | Diminuir minhas despesas | Direcionar minha renda em outras áreas da vida               |
-
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário atualize o preço dos postos | ALTA | 
-|RF-002| Permitir a busca de postos por endereço   | MÉDIA |
-|RF-003| Permitir que o usuário navegue pelo mapa  | ALTA | 
-|RF-004| Emitir um aviso informando qual combustível está mais vantajoso   | MÉDIA |
-|RF-005| Ter acesso à localização atualizada do usuário   | ALTA |
-|RF-006| O site deve apresentar algumas notícias acerca do tema, obtidas por meio de canais de notícias da Internet | MÉDIA |
-|RF-007| O site deve apresentar os "postos em destaque", aqueles que tiveram uma maior reduçao de preço | MÉDIA |
-|RF-008| O site deve permitir que o usuário procure os postos por cidade | MÉDIA |
-
-
-
-
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O sistema deve garantir a privacidade dos dados do usuário | MÉDIA | 
-|RNF-004| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
-|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | MÉDIA | 
-
-
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| O projeto terá que ser implantado em apenas uma região|      |
-
-
-
-
-# Projeto de Interface
+Tela - postos-destaque: A tela de postos em destaque mostra a relação dos postos que tiveram uma maior redução nos preços dos combustíveis em determinado período.
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/e1b4f58b-dc8c-43d2-aad5-7382a756d788)
 
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como usabilidade e praticidade. Desta forma, o projeto tem uma identidade visual simples em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
-O User Flow foi desenvolvido no Google Draw, após o desenvolvimento das wireframes pelo MarvelApp
+Tela - notícias: A tela de notícias permite a visualização das principais notícias que afetam a alteração dos preços dos combustíveis.
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/fb2892a7-b9a8-432b-b550-b028465cc538)
 
 
-## User Flow
 
-> **User FLow Postos**:
-> 
-> ![Exemplo de UserFlow](images/user-flow-.jpg)
 
+Tela - login: Campos para inserção de nome de usuário e senha, botão de login e opção de recuperação de senha.
+	 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/9b4ce481-0db8-45d9-b2cd-abfd82e9844a)
 
-## Wireframes
-
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem.
-> 
-> **Tela - Home-Page**:
-> 
-> A tela de home-page mostra um mapa com a localização no usuário, algumas notícias relevantes para o tema e depoimentos de usuários. Além de contar com postos em destaques na leteral direita. 
-> 
-> ![Exemplo de Wireframe](images/homepage.png)
-> 
-> **Tela - mapa-geral**:
-> 
-> A tela de mapa-geral mostra um mapa com todos os postos ao redor do usuário e seus respostivos preços de gasolina e álcool. Além de indicar qual dos dois combustível é mais vantajoso para o usuário. 
->
->
-> ![Exemplo de Wireframe](images/mapa-geral.png)
->
-> **Tela - postos-destaque**:
-> 
-> A tela de postos em destaque mostra a relação dos postos que tiveram uma maior redução nos preços dos combustíveis em determinado período de tempo. 
-> 
-> ![Exemplo de Wireframe](images/destaque.png)
-> 
-> **Tela - cidades**:
-> 
-> A tela de cidades permite a visualização dos postos por essa delimitação territorial. Como a região escolhida do projeto foi a Via Expressa, é permitido navegar entre os postos de Belo Horizonte, Contagem e Betim. 
-> 
-> ![Exemplo de Wireframe](images/cidades.png)
->
->
-> ![Exemplo de Wireframe](images/cidades-bh.png)
-> 
-> **Tela - gasolina/álcool**:
-> 
-> A tela de gasolina permite a visualização da relação dos postos ordenados de maneira crescente acerda do preço desse combustível.
-> 
-> ![Exemplo de Wireframe](images/gasolina.png)
-> 
-> **Tela - notícias**:
-> 
-> A tela de notícias permite a visualização das principais noticias que afetam a alteração dos preço dos combustíveis.
-> 
-> ![Exemplo de Wireframe](images/noticias.png)
-
-
-# Metodologia
-
-A abordagem inclui as diretrizes de ferramentas usadas pela equipe tanto para a manutenção de códigos e outros recursos quanto para a organização das tarefas do projeto. Lista de Ambientes de Trabalho Os recursos do projeto são criados em várias plataformas e a tabela abaixo mostra a relação entre os ambientes e seus respectivos propósitos.
-
-### Ferramentas (Relação de Ambientes de Trabalho)
-
-|AMBIENTE     | PLATAFORMA  |LINK DE ACESSO |
-|-------|-------------------------|----|
-|Design Thinking| Miro | (https://miro.com/app/board/uXjVMYJ6j9Q=/) | 
-|Projeto de Interface e  Wireframes| MarvelApp | (https://marvelapp.com/prototype/ee5hf33) | 
-|Gerenciamento do Projeto| Trello | (https://trello.com/b/LupglzUz/tiaw-template) | 
-|Repositório de código|	GitHub	|(https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1) |
-
-
-### Gestão de código fonte
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Feature Branch Workflow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches 
-separados. Uma explicação rápida sobre este processo é apresentada no site "5 Git Workflows & Branching Strategy to deliver better code".
->
->![Exemplo codigo fonte](images/figurax.png)
->
-Figura X - Fluxo de controle do código fonte no repositório git
-
-### Gerenciamento do Projeto
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
-
-> - To Do: Esta lista representa o Sprint atual que estamos trabalhando.
-> - Doing: As tarefas vem pra cá quando elas são iniciadas.
-> - Test: As tarefas ja feitas são movidas para serem testadas.
-> - Done: As tarefas são movidas para cá quando ja passaram pelas etapas anteriores.
-> - Locked: As tarefas são movidas para cá quando, por algum motivos, não são concluidas.
-
-
-## Divisão de Papéis
-
-|PAPEL    | PARTICIPANTE |
-|-------|-------------------------|
-|Design Thinking| Ana Fernanda, Gabriel Rangel, João Marcos e Rafael Lima | 
-|Projeto de Interface e  Wireframes| Ana Fernanda |
-|Fluxo do Usuário| Gabriel Rangel |
-|Relatório| Ana Fernanda, João Marcos, Rafael Lima e Gabriel Rangel	|
-
-
-
-## Controle de Versão
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
-# Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Tecnologias Utilizadas
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
-## Arquitetura da solução
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-# Referências
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Tela - gasolina/álcool: A tela de gasolina permite a visualização da relação dos postos ordenados de maneira crescente acerda do preço desse combustível.
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/e32b2f83-da5c-4309-a76d-63db57219aae)
+
+Gestão de Código Fonte
+Para a gestão do código fonte do software desenvolvido pela equipe, adotamos um processo baseado no Git Feature Branch Workflow, ilustrado na Figura X. Dessa forma, todas as modificações no código são realizadas em branches separados. Para obter uma explicação detalhada sobre esse processo, consulte o site "5 Git Workflows & Branching Strategy to deliver better code".
+
+ ![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-financas-1/assets/138337192/3b8ff0fa-6e46-4f85-9955-07779ff36e30)
+Figura X - Fluxo de controle do código fonte no repositório Git.
+
+Gerenciamento do Projeto
+Para a organização e distribuição das tarefas do projeto, estamos utilizando o Trello com a seguinte estrutura de listas:
+To Do: Esta lista representa o sprint atual em que estamos trabalhando.
+Doing: As tarefas são movidas para cá quando são iniciadas.
+Test: As tarefas já concluídas são movidas para esta lista para serem testadas.
+Done: As tarefas são movidas para cá quando passam por todas as etapas anteriores.
+Locked: As tarefas são movidas para cá quando, por algum motivo, não são concluídas
+
+3.4. Tecnologias
+As tecnologias utilizadas no desenvolvimento do software incluirão:
+
+Linguagens de programação: HTML, CSS, JS.
+Estrutura de dados: JSON. 
+Ferramentas de desenvolvimento: VScode , Discord.
+
+Conclusão
+
+Esta documentação apresenta uma visão geral do projeto de desenvolvimento do software Bomba Certa, abordando o contexto, os objetivos, o público-alvo, as especificações do projeto, a metodologia de trabalho e as tecnologias envolvidas. Espera-se que a solução implementada atenda às necessidades dos usuários e contribua para a economia financeira relacionada ao abastecimento de veículos.
