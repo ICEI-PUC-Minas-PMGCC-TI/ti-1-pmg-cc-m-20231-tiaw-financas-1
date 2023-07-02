@@ -1,0 +1,97 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input[type="date"],
+  form input[type="number"],
+  form select {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  form select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    padding-right: 1.5rem;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button[type="reset"] {
+    background-color: #5636f4;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #605e5e;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  @media screen and (min-width: 640px) {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    form label {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  
+    form input[type="date"],
+    form input[type="number"],
+    form select {
+      flex-basis: calc(50% - 0.5rem);
+      max-width: calc(50% - 0.5rem);
+    }
+  
+    form button {
+      flex-basis: calc(50% - 0.5rem);
+      max-width: calc(50% - 0.5rem);
+    }
+  }
+  
